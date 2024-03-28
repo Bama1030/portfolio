@@ -1,3 +1,4 @@
+import Form from "@/components/Form";
 import { MailIcon, HomeIcon, PhoneCall } from "lucide-react";
 
 const Contact = () => {
@@ -21,11 +22,22 @@ const Contact = () => {
             
           </div>
         </div>
-        <div>
-          <div className=" flex items-center gap-x-8">
-            <MailIcon size={18} className=" text-primary" />
-            <div>bapimandal12340@gmail.com</div>
+        <div className=" grid xl:grid-cols-2 mb-24 xl:mb-32 ">
+          <div className=" flex flex-col gap-y-4 xl:gap-y-14 mb-12 xl:mb-24 text-base xl:text-lg">
+            <div className=" flex items-center gap-x-8">
+              <MailIcon size={18} className=" text-primary" />
+              <div>bapimandal12340@gmail.com</div>
+            </div>
+            <div className=" flex items-center gap-x-8">
+              <HomeIcon size={18} className=" text-primary" />
+              <div>Buniadpur, West Bengal, Dakshin Dinajpur, 733121, India</div>
+            </div>
+            <div className=" flex items-center gap-x-8">
+              <PhoneCall size={18} className=" text-primary" />
+              <div>+91 7586007479</div>
+            </div>
           </div>
+          <Form />
         </div>
       </div>
     </section>
