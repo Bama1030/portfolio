@@ -20,7 +20,7 @@ const Form = () => {
         <Textarea type="name" id="name" placeholder="Name" />
         <User className=" absolute top-4 right-6" size={20} />
           </div>
-          <Button className=" flex items-center">Let's Cunnect</Button>
+          <Button className=" flex items-center">Let's Connect</Button>
     </form>
   );
 };
