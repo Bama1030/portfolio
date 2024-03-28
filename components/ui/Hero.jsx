@@ -34,7 +34,7 @@ const Hero = () => {
                 </Button>
               </Link>
                 
-              <Link href='https://drive.google.com/file/d/1M8sa_OxUEQmqIZ-qOaAb_fN9qeNzbJZd/view?usp=sharing'>
+              <Link href='https://drive.google.com/file/d/1ILBZ89_CrBsR9GIB5RkW6NkuvFBxbRz4/view?usp=sharing'>
               <Button variant="secondary" className="gap-x-2" >
                 Download CV <Download size={18} />
               </Button>
